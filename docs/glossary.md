@@ -149,18 +149,3 @@ Where:
 **Weighted Sampling**
 :   Sampling strategy that over-samples minority classes to balance training batches.
 
----
-
-## Software & Frameworks
-
-**PyTorch**
-:   An open-source deep learning framework developed by Meta AI.
-
-**scikit-learn**
-:   A Python library for machine learning, providing tools for classification, regression, and preprocessing.
-
-**NumPy**
-:   A Python library for numerical computing with support for large, multi-dimensional arrays.
-
-**MkDocs**
-:   A static site generator for building documentation websites from Markdown files.
