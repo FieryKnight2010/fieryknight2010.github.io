@@ -1,0 +1,110 @@
+site_name: Epilepsy Drug Repurposing
+site_description: Deep Learning Approaches for Epilepsy Drug Repurposing using LINCS L1000 Data
+site_author: Ravi Kondadadi
+site_url: https://fieryknight2010.github.io
+
+repo_name: fieryknight2010/fieryknight2010.github.io
+repo_url: https://github.com/fieryknight2010/fieryknight2010.github.io
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: fieryknight2010
+      repo: fieryknight2010.github.io
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fieryknight2010
+  generator: false
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - CTDN:
+    - Overview: ctdn/index.md
+    - Quick Start: ctdn/quickstart.md
+    - Architecture: ctdn/architecture.md
+    - Data Format: ctdn/data-format.md
+    - Results: ctdn/results.md
+    - API Reference: ctdn/api.md
+  - MGAN-DR:
+    - Overview: mgan-dr/index.md
+    - Quick Start: mgan-dr/quickstart.md
+    - Architecture: mgan-dr/architecture.md
+    - Data Format: mgan-dr/data-format.md
+    - Results: mgan-dr/results.md
+    - API Reference: mgan-dr/api.md
+  - Comparison: comparison.md
+  - About: about.md
