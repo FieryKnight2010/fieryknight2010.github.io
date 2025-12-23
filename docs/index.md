@@ -77,11 +77,18 @@ This project presents two novel deep learning approaches for computational drug 
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{kondadadi2024epilepsy,
-  title={Deep Learning Approaches for Drug Repurposing in Epilepsy},
+@article{kondadadi2025ctdn,
+  title={CTDN: Causal Temporal Diffusion Networks for Drug Repurposing in Epilepsy},
+  author={Kondadadi, Ravi},
+  journal={ISCB-ASCS},
+  year={2025}
+}
+
+@article{kondadadi2025mgandr,
+  title={MGAN-DR: Multi-Modal Graph Attention Networks for Drug Repurposing in Epilepsy},
   author={Kondadadi, Ravi},
   journal={AMIA Annual Symposium},
-  year={2024}
+  year={2025}
 }
 ```
 

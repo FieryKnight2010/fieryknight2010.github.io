@@ -38,18 +38,18 @@ Both methods significantly outperform traditional approaches.
 ## Publications
 
 ```bibtex
-@article{kondadadi2024ctdn,
+@article{kondadadi2025ctdn,
   title={CTDN: Causal Temporal Diffusion Networks for Drug Repurposing in Epilepsy},
   author={Kondadadi, Ravi},
-  journal={AMIA Annual Symposium},
-  year={2024}
+  journal={ISCB-ASCS},
+  year={2025}
 }
 
-@article{kondadadi2024mgandr,
+@article{kondadadi2025mgandr,
   title={MGAN-DR: Multi-Modal Graph Attention Networks for Drug Repurposing in Epilepsy},
   author={Kondadadi, Ravi},
   journal={AMIA Annual Symposium},
-  year={2024}
+  year={2025}
 }
 ```
 
