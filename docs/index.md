@@ -79,14 +79,14 @@ If you use this work in your research, please cite:
 ```bibtex
 @article{kondadadi2025ctdn,
   title={CTDN: Causal Temporal Diffusion Networks for Drug Repurposing in Epilepsy},
-  author={Kondadadi, Ravi},
+  author={Kondadadi, Rishik},
   journal={ISCB-ASCS},
   year={2025}
 }
 
 @article{kondadadi2025mgandr,
   title={MGAN-DR: Multi-Modal Graph Attention Networks for Drug Repurposing in Epilepsy},
-  author={Kondadadi, Ravi},
+  author={Kondadadi, Rishik},
   journal={AMIA Annual Symposium},
   year={2025}
 }
