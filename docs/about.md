@@ -26,15 +26,6 @@ Both methods significantly outperform traditional approaches.
 
 ---
 
-## Research Team
-
-**Ravi Kondadadi**
-
-- Lead Researcher
-- GitHub: [@fieryknight2010](https://github.com/fieryknight2010)
-
----
-
 ## Publications
 
 ```bibtex
